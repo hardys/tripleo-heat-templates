@@ -65,7 +65,7 @@ resources:
       ServiceNetMap: {get_param: ServiceNetMap}
       DefaultPasswords: {get_param: DefaultPasswords}
       EndpointMap: {get_param: EndpointMap}
-      EnableInternalTLS: {get_param: EnableInternalTLS}
+      EnableinternalTLS: {get_param: EnableInternalTLS}
 
   NovaBase:
     type: ./nova-base.yaml
