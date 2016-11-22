@@ -146,7 +146,6 @@ resources:
     properties:
       image: {get_param: controllerImage}
       image_update_policy: {get_param: ImageUpdatePolicy}
-      flavor: {get_param: OvercloudControlFlavor}
       key_name: {get_param: KeyName}
       networks:
         - network: ctlplane
